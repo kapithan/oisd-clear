@@ -1,0 +1,35 @@
+name: Update and clean blocklist
+
+on:
+  schedule:
+    # Каждый день в 03:00 UTC – можно настроить под себя
+    - cron: '0 3 * * *'
+  workflow_dispatch:  # Позволяет запускать вручную
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download blocklist
+        run: |
+          curl -L -o raw_list.txt "https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_small.txt"
+
+      - name: Remove comments and empty lines
+        run: |
+          grep -v '^#' raw_list.txt | grep -v '^[[:space:]]*$' > clean_list.txt
+
+      - name: Commit and push if changed
+        run: |
+          mv clean_list.txt blocklist.txt
+          if git diff --quiet blocklist.txt; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add blocklist.txt
+          git commit -m "Auto-update blocklist $(date +'%Y-%m-%d')"
+          git push
