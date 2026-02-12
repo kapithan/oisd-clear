@@ -2,9 +2,8 @@ name: Update and clean blocklist
 
 on:
   schedule:
-    # Каждый день в 03:00 UTC – можно настроить под себя
     - cron: '0 3 * * *'
-  workflow_dispatch:  # Позволяет запускать вручную
+  workflow_dispatch:
 
 jobs:
   update-list:
@@ -15,21 +14,25 @@ jobs:
 
       - name: Download blocklist
         run: |
-          curl -L -o raw_list.txt "https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_small.txt"
+          curl -L -o raw_list.txt \
+          "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_small.txt"
 
       - name: Remove comments and empty lines
         run: |
-          grep -v '^#' raw_list.txt | grep -v '^[[:space:]]*$' > clean_list.txt
+          grep -v '^#' raw_list.txt | \
+          grep -v '^[[:space:]]*$' > blocklist.txt
 
       - name: Commit and push if changed
         run: |
-          mv clean_list.txt blocklist.txt
-          if git diff --quiet blocklist.txt; then
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add blocklist.txt
+
+          if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add blocklist.txt
+
           git commit -m "Auto-update blocklist $(date +'%Y-%m-%d')"
           git push
