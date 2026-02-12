@@ -1,0 +1,2 @@
+# oisd-clear
+clear domains
