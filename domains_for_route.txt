@@ -11,4 +11,4 @@ supporter-files.nexus-cdn.com
 files.nexus-cdn.com
 fivenines.io
 musicbrainz.org
-statis.musicbrainz.org
+static.metabrainz.org
