@@ -12,5 +12,4 @@ files.nexus-cdn.com
 fivenines.io
 musicbrainz.org
 static.metabrainz.org
-nggjgj.com
-dddddd.com
+2ip.io
