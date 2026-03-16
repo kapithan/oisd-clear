@@ -1,0 +1,48 @@
+174     Cogent Communications, LLC
+8560    IONOS SE
+9009    M247 Europe SRL
+14061   DigitalOcean LLC
+16276   OVH SAS
+20473   The Constant Company, LLC / VULTR
+21100   GREEN FLOID LLC / ITL
+21859   Zenlayer Inc
+24961   WIIT AG (fka. myLoc Managed IT AG)
+25198   INTERKVM HOST (ZetServers)
+26383   Baxet Group Inc. / JUSTHOST
+30058   FDCservers.net
+30083   velia.net
+33993   UFO Hosting LLC
+35042   Layer7 Networks GmbH
+36530   IDC Cube
+40021   Contabo (Nubes, LLC)
+48014   Albanian Hosting SH.P.K.
+48282   Hosting technology LTD / VDSINA
+48753   AVA HOST SRL
+49981   WorldStream B.V.
+53755   Input Output Flood LLC
+56971   CGI GLOBAL LIMITED / HOSTVDS
+58061   Scalaxy B.V.
+60068   Datacamp Limited (CDN77 / DataPacket)
+62240   Clouvider Limited
+62563   GLOBALTELEHOST Corp. / GTHOST
+63018   Dedicated.com
+63023   GTHost
+63150   Bage Cloud LLC
+63473   HostHatch, LLC
+63949   Akamai (Linode)
+135682  Advika Web Developments Hosting Pvt Ltd
+137409  GSL Networks Pty LTD
+197540  netcup GmbH
+200019  ALEXHOST SRL
+204957  GREEN FLOID LLC
+209847  WorkTitans B.V.
+211301  Collin Schneeweiss trading as Unesty Company
+212238  Datacamp Limited
+213887  WAIcore Ltd
+214172  DePowered Limited
+215540  GLOBAL CONNECTIVITY SOLUTIONS LLP
+215730  H2NEXUS LTD
+216071  SERVERS TECH FZCO / VDSINA
+394177  Shift Hosting LLC
+396356  Latitude.sh
+49453   Global Layer B.V.
