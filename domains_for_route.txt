@@ -13,3 +13,4 @@ fivenines.io
 musicbrainz.org
 static.metabrainz.org
 teamhd.org
+discogs.com
