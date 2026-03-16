@@ -1,3 +1,5 @@
+Список ASN под триггерной блокировкой
+
 174     Cogent Communications, LLC
 8560    IONOS SE
 9009    M247 Europe SRL
@@ -46,3 +48,40 @@
 394177  Shift Hosting LLC
 396356  Latitude.sh
 49453   Global Layer B.V.
+
+Список ASN под "Сибирской" блокировкой https://habr.com/ru/articles/1010336/
+
+50340 | Selectel - Moscow
+13213 | THG HOSTING LIMITED
+202053 | UpCloud Ltd
+10929 | eStruxture Data Centers Inc.
+12876 | Scaleway
+21859 | Zenlayer Inc
+203020 | HostRoyale Technologies Pvt Ltd
+51430 | AltusHost B.V.
+60068 | Datacamp Limited (CDN77 / DataPacket)
+202675 | Keliweb S.R.L
+49981 | WorldStream B.V.
+396356 | Latitude.sh
+25369 | Hydra Communications Ltd
+58065 | Orion Network Limited
+42831 | UK Dedicated Servers Limited
+136744 | Dream Power Technology Limited
+393515 | ERR_AS_NAME_NOT_FOUND
+40676 | Psychz Networks
+29838 | Atlantic Metro Communications II, Inc.
+40021 | Contabo (Nubes, LLC)
+62240 | Clouvider Limited
+263812 | SONDATECH S.A.S.
+140443 | PT Herza Digital Indonesia
+25788 | Centerview Partners, LLC
+32181 | GigeNET
+397571 | ROCKWELL AUTOMATION Inc.
+398343 | Baxet Group Inc. / JustHost
+29873 | Newfold Digital, Inc.
+54600 | PEG TECH INC
+202662 | Hytron Network Services Limited
+263702 | GRUPO ZGH SPA
+13727 | NEXT DIMENSION INC
+151338 | PoloNetwork Limited
+399622 | Wireless Data Net, LLC
