@@ -25,3 +25,4 @@ spade.twitch.tv
 panels.twitch.tv
 twitch.tv
 terra-master.com
+windrose.tools
