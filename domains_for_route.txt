@@ -14,3 +14,14 @@ musicbrainz.org
 static.metabrainz.org
 teamhd.org
 discogs.com
+gamerguides.com
+kalinowsky.store
+reshade.me
+crimsondb.gg
+crimsondesert.gg
+questlog.gg
+ttvnw.net
+spade.twitch.tv
+panels.twitch.tv
+twitch.tv
+terra-master.com
